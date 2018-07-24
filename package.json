@@ -4,7 +4,7 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "start": "npm run build && cd server && node server.js",
+    "start": "webpack -p && cd server && node server.js",
     "build": "webpack"
   },
   "author": "",
